@@ -4,11 +4,11 @@ Helpful scripts related to web development
 ## Run using curl
 
 ```bash
-curl -sSL https://raw.githubusercontent.com/ayusht9/web-dev-scripts/main/web_template.py | python3
+curl -sSL https://raw.githubusercontent.com/ayusht9/web-dev-scripts/main/web_template.py | python
 ```
 
 
-## Setup for Quick Access
+## Run it locally
 
 To use this script from anywhere:
 
