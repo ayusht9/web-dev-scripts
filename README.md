@@ -1,6 +1,13 @@
 # web-dev-scripts
 Helpful scripts related to web development
 
+## Run using curl
+
+```bash
+curl -sSL https://raw.githubusercontent.com/ayusht9/web-dev-scripts/main/web_template.py | python3
+```
+
+
 ## Setup for Quick Access
 
 To use this script from anywhere:
