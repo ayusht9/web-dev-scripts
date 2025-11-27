@@ -57,13 +57,3 @@ source ~/.bashrc
 ```bash
 web_template.py
 ```
-
-Requirements
-
-Python 3.x installed
-
-Git
-
-License
-
-MIT License — feel free to use, modify, and share.
