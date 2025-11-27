@@ -32,9 +32,7 @@ def create_web_files():
 """
 
     # JavaScript starter content
-    js_content = """document.addEventListener('DOMContentLoaded', () => {
-    console.log('JavaScript is linked and running!');
-});
+    js_content = """console.log('Hello');
 """
 
     # Write files
