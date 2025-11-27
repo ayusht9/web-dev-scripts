@@ -1,7 +1,7 @@
 # web-dev-scripts
-Helpful scripts related to web development
+Create html-css-js files and link them with html boiler plate and css universal rule
 
-## Run using curl
+## Run directly using curl
 
 ```bash
 curl -sSL https://raw.githubusercontent.com/ayusht9/web-dev-scripts/main/web_template.py | python
@@ -25,11 +25,11 @@ To use this script from anywhere:
 2. **Move this script** into that folder:
 
    ```bash
-   mv create_web_files.py ~/dev-tools/
+   mv web_template.py ~/dev-tools/
    ```
 
    ```cmd
-   move create_web_files.py %USERPROFILE%\dev-tools
+   move web_template.py %USERPROFILE%\dev-tools
    ```
 
 3. **Add the folder to your system PATH** so you can run the script globally:
