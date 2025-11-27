@@ -1,59 +1,69 @@
-# web-dev-scripts
-Create html-css-js files and link them with html boiler plate and css universal rule
+# **web-template**
 
-## Run directly using curl
+Create HTML, CSS, and JS files with a ready-to-use boilerplate and a universal CSS rule.
+
+---
+
+## **Run directly using `curl`**
 
 ```bash
 curl -sSL https://raw.githubusercontent.com/ayusht9/web-dev-scripts/main/web_template.py | python
 ```
 
+---
 
-## Run it locally
+## **Run locally using Git**
 
-To use this script from anywhere:
+1. **Clone the repository**:
 
-1. **Create a folder** to store your utility scripts
+**macOS / Linux:**
 
-   ```bash
-   mkdir ~/dev-tools
-   ```
+```bash
+git clone https://github.com/ayusht9/web-dev-scripts.git ~/web-template
+```
 
-   ```cmd
-   mkdir %USERPROFILE%\dev-tools
-   ```
+**Windows (PowerShell / CMD):**
 
-2. **Move this script** into that folder:
+```cmd
+git clone https://github.com/ayusht9/web-dev-scripts.git %USERPROFILE%\web-template
+```
 
-   ```bash
-   mv web_template.py ~/dev-tools/
-   ```
+2. **Add the folder to your system PATH** to run the script from anywhere:
 
-   ```cmd
-   move web_template.py %USERPROFILE%\dev-tools
-   ```
+**On Windows:**
 
-3. **Add the folder to your system PATH** so you can run the script globally:
-
-   * On **macOS / Linux**, add this line to your `~/.bashrc`, `~/.zshrc`, or `~/.profile`:
-
-     ```bash
-     export PATH="$PATH:~/dev-tools"
-     ```
-
-     Then reload your shell:
-
-     ```bash
-     source ~/.bashrc
-     ```
-   * On **Windows**:
-
-     * run setPath.ps1 with powershell
+Run `setPath.ps1` with powershell
 
      ![image](image.png)
 
+![image](image.png)
 
-4. Now you can run the script from anywhere using:
+**On macOS / Linux:**
 
-   ```bash
-   web_template.py
-   ```
+Add this line to your `~/.bashrc`, `~/.zshrc`, or `~/.profile`:
+
+```bash
+export PATH="$PATH:~/web-template"
+```
+
+Then reload your shell:
+
+```bash
+source ~/.bashrc
+```
+
+3. **Run the script from anywhere**:
+
+```bash
+web_template.py
+```
+
+Requirements
+
+Python 3.x installed
+
+Git
+
+License
+
+MIT License — feel free to use, modify, and share.
