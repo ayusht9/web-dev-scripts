@@ -47,12 +47,13 @@ To use this script from anywhere:
      ```
    * On **Windows**:
 
-     * Search for “Environment Variables” → “Edit the system environment variables”
-     * Click **Environment Variables** → select **Path** → click **Edit**
-     * Add the full path to your `dev-tools` folder
+     * run setPath.ps1 with powershell
+
+     ![image](image.png)
+
 
 4. Now you can run the script from anywhere using:
 
    ```bash
-   python create_web_files.py
+   web_template.py
    ```
